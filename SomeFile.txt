@@ -6,3 +6,7 @@ Let's commit this line
 Adding some code here 
 print(f"Displaying the cost field: ${db.cost} )
 Commit again
+
+Add some bad code here
+x = x / 0 ;
+commit but revert back
