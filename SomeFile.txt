@@ -2,3 +2,7 @@ Blah blah
 
 Adding some text at 10:30am
 Let's commit this line
+
+Adding some code here 
+print(f"Displaying the cost field: ${db.cost} )
+Commit again
