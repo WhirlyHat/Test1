@@ -1,0 +1,5 @@
+.sleigh {
+	font-size: 3rem;
+	color: transparent; /*set color to transparent to re-color emojis*/
+	text-shadow: 0 0 0 #06223f; /*recolor emojis*/
+}
