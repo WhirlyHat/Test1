@@ -1,0 +1,47 @@
+body {
+	background-color: #a1b8ce;
+	height: 100vh;
+	display: flex;
+	overflow: hidden;
+}
+.sleigh {
+	font-size: 3rem;
+	color: transparent; /*set color to transparent to re-color emojis*/
+	text-shadow: 0 0 0 #06223f; /*recolor emojis*/
+}
+.santa {
+	animation-name: up, across;
+	animation-duration: 10s, 6.5s;
+	animation-timing-function: ease-in-out, linear;
+	animation-iteration-count: 1, 1;
+	animation-delay: 3s, 5s;
+	position: absolute;
+	right: -80px;
+	top: 100px;
+	z-index: 2;
+	filter: blur(1px);
+}
+.santa1 {
+	animation-name: up, across;
+	animation-duration: 10s, 6.5s;
+	animation-timing-function: ease-in-out, linear;
+	animation-iteration-count: 1, 1;
+	animation-delay: 3.2s, 5.1s;
+	position: absolute;
+	right: -80px;
+	top: 100px;
+	z-index: 2;
+	filter: blur(1px);
+}
+.santa2 {
+	animation-name: up, across;
+	animation-duration: 10s, 6.5s;
+	animation-timing-function: ease-in-out, linear;
+	animation-iteration-count: 1, 1;
+	animation-delay: 3.4s, 5.2s;
+	position: absolute;
+	right: -80px;
+	top: 100px;
+	z-index: 2;
+	filter: blur(1px);
+}
